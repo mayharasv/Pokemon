@@ -1,0 +1,82 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista</title>
+        <script>
+           var pokemon = {
+            nome: 'Gastly ',
+            tipo: 'Fantasma',
+            vida: 30,
+            energia: 2,
+            velocidade: 0,
+            posicao: 0,
+
+            // Função
+            andar(){
+                alert('Gastly andou')
+                this.posicao = this.posicao + 5
+            },
+            verPossicao(){
+                alert(this.posicao)
+            },
+
+
+            correr(){
+                alert('Gastly correu')
+                this.velocidade = this.velocidade + 20
+            },
+            verVelocidade(){
+                alert(this.velocidade)
+            },
+
+
+            atacar(){
+                alert('Gastly foi atacado')
+                this.energia = this.energia - 1
+            },
+            posAtaque(){
+                alert(this.energia)
+            },
+
+
+            comer(){
+                alert('Gastly se alimentou')
+
+            },
+
+
+            dormir(){
+                alert('Gastly dormiu')
+            },
+
+
+            r_dano(){
+                alert('Gastly sofreu dano')
+                this.vida = this.vida - 1
+            },
+            verVida(){
+                alert(this.vida)
+            },
+
+
+            treinar(){
+
+            },
+            descansar(){
+
+            }
+
+           }
+
+
+           pokemon.verPossicao
+           pokemon.andar
+           pokemon.verPossicao
+           
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
